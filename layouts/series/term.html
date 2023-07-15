@@ -1,0 +1,48 @@
+{{ define "title" }}
+  <title>{{ .Title | default (index .Pages 0).Params.Series }} :: {{ .Site.Title }}</title>
+{{ end }}
+{{ define "main" }}
+  <h1>{{ .Title | default (index .Pages 0).Params.Series }}</h1>
+  {{ with .Content }}
+    <div class="index-content">
+      {{ . }}
+    </div>
+  {{ end }}
+  <div class="posts">
+    {{ range .Paginator.Pages }}
+      <article class="post on-list">
+        {{ partial "post-title.html" . }}
+
+        {{ if .Params.tags }}
+          <span class="post-tags">
+            {{ range .Params.tags }}
+            #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+              {{- . -}}
+            </a>&nbsp;
+            {{ end }}
+          </span>
+        {{ end }}
+
+        {{ partial "cover.html" . }}
+
+        <div class="post-content">
+          {{ if .Params.showFullContent }}
+            {{ .Content }}
+          {{ else if .Description }}
+            {{ .Description | markdownify }}
+          {{ else }}
+            {{ .Summary }}
+          {{ end }}
+        </div>
+
+        {{ if not .Params.showFullContent }}
+          <div>
+            <a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore }} →</a>
+          </div>
+        {{ end }}
+      </article>
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}

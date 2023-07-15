@@ -2,9 +2,9 @@
 title: "Test Post"
 date: 2023-07-13T00:05:13-05:00
 description: foo things
-featured: true
 series: "How to eat a bagel properly"
-tags: ["asdf", "1", "3"]
+featured: false
+tags: ["a", "asdf"]
 ---
 
 ## Foo
@@ -46,5 +46,3 @@ def get_database(ip):
     database_name = get_string(ip, "DATABASE()", database_length)
     return database_name
 ```
-
-final thoughts
