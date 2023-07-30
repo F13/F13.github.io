@@ -4,8 +4,8 @@ languageCode = "en-us"
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 paginate = 5
-title = "Footown"
-subtitle = "A simple, retro theme for Hugo"
+title = "things, about stuff"
+subtitle = ""
 owner = ""
 keywords = ""
 copyright = ""
@@ -68,8 +68,7 @@ copyright = ""
   # can be overridden in a page's front-matter
   # TocTitle = "Table of Contents" # default
 
-[logo]
-  logoText = "Terminal"
+  logoText = "things, about stuff"
   logoHomeLink = "/"
 
 [menu]

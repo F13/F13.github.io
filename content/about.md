@@ -1,5 +1,9 @@
 ---
-title: The Thing
+title: what even is this place
 ---
 
-Stuff goes here.
+Welcome.
+
+This, my friend, is the beginning.
+
+[Shall we?]( {{< ref "/" >}} )

@@ -1,0 +1,5 @@
+<a href="{{ if $.Site.Params.LogoHomeLink }}{{ $.Site.Params.LogoHomeLink }}{{else}}{{ $.Site.BaseURL }}{{ end }}">
+  <div class="logo">
+    {{ with $.Site.Params.logoText }}{{ . }}{{ else }}Terminal{{ end }}
+  </div>
+</a>
