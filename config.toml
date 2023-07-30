@@ -79,7 +79,21 @@ copyright = ""
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
+  [[menu.main]]
+    identifier = "allposts"
+    parent = "posts"
+    name = "All"
     url = "/"
+  [[menu.main]]
+    identifier = "series"
+    parent = "posts"
+    name = "Series"
+    url = "/series"
+  [[menu.main]]
+    identifier = "tags"
+    parent = "posts"
+    name = "Tags"
+    url = "/tags"
 
 [taxonomies]
   series = 'series'

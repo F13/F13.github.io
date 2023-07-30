@@ -15,3 +15,8 @@ hr.series-separator {
     margin-top: 60px;
     margin-bottom: 40px;
 }
+
+li.menu__trigger {
+    color: inherit;
+    text-decoration: underline;
+}
