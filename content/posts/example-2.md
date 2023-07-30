@@ -1,9 +1,10 @@
 ---
-title: "Test Post"
-date: 2023-07-13T00:05:13-05:00
-description: foo things
-series: "How to eat a bagel properly"
+title: "Test Post 2"
+date: 2023-07-15T00:05:13-05:00
+description: foo things again!
+series: "How to foo"
 tags: ["a", "asdf"]
+draft: true
 ---
 
 ## Foo
@@ -29,6 +30,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum met
 # ASDF TIME
 
 ## what even is asdf
+
+### something
+
+#### something else
 
 ---
 

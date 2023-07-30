@@ -2,8 +2,9 @@
 title: "Test Post"
 date: 2023-07-13T00:05:13-05:00
 description: foo things
-series: "How to eat a bagel properly"
+series: "How to foo"
 tags: ["asdf", "1", "3"]
+draft: true
 ---
 
 ## Foo
