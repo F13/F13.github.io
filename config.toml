@@ -4,11 +4,14 @@ languageCode = "en-us"
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 paginate = 5
-title = "things, about stuff"
+title = ""
 subtitle = ""
 owner = ""
 keywords = ""
 copyright = ""
+
+enableGitInfo = true
+timeZone = "America/Chicago"
 
 [params]
   menuMore = "Show more"
@@ -46,7 +49,7 @@ copyright = ""
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  showLastUpdated = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
@@ -68,7 +71,7 @@ copyright = ""
   # can be overridden in a page's front-matter
   TocTitle = "Shortcuts"
 
-  logoText = "things, about stuff"
+  logoText = ":: | home | ::"
   logoHomeLink = "/"
 
 [menu]

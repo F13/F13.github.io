@@ -1,9 +1,7 @@
 ---
-title: what even is this place
+title: But why?
 ---
 
-Welcome.
+A place to share, and push against the poison of social media.
 
-This, my friend, is the beginning.
-
-[Shall we?]( {{< ref "/" >}} )
+Inspired by such places as https://herman.bearblog.dev/ and https://david.reviews/.
